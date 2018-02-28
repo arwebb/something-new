@@ -1,0 +1,171 @@
+html, body {
+  height: 100%;
+}
+
+h1 {
+  color: #595959;
+}
+
+h2, 
+h3, 
+h4, 
+h5 {
+  color: #333;
+}
+
+h6{
+  color: #8e8e8e;
+  text-transform: uppercase;
+}
+
+
+p {
+  color: #424242;
+}
+
+img {
+  width: 100%;
+  height: 315;
+}
+
+#stage {
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.carouselCap {
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.carousel-item h1 {
+  color: white;
+}
+
+.carousel-item p {
+  margin-left: 7rem;
+}
+
+#capLead {
+  margin-left: 5rem;
+}
+
+.carousel-inner img {
+  -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(20%);
+}
+
+#signUp {
+  color: #333;
+  background-color: rgb(255, 219, 40);
+  border: rgb(255, 219, 40);
+}
+
+.feature-content {
+  padding: 8rem 0;
+  overflow: hidden;
+}
+
+
+.feature-dark {
+  background-color: #373738;
+  color: white;
+}
+
+.feature-dark h6 {
+    color: #cccccc;
+}
+
+.feature-dark h2 {
+  color: white;
+}
+
+.feature-dark p {
+  color: white;
+}
+
+
+.Interact {
+  margin: 1rem;
+  color: #cccccc
+}
+
+.textBox {
+  padding-top: 8%;
+}
+
+.display-3 {
+  font-weight: 400;
+}
+
+.Search {
+  margin-left: 1rem;
+}
+
+.navButton {
+  padding: .3rem;
+  margin-top: .3rem;
+  margin-left: .2rem;
+  background: #ffdb28;
+  border: #ffdb28;
+  color: #333;
+}
+
+#notes-one #signup {
+  margin-left: 50%;
+  margin-right: 2rem;
+}
+
+#notes-one {
+  height: 100%;
+}
+
+#history-content {
+  height: 100%;
+  padding-top: 5%;
+  text-align: center;
+}
+
+#memories-content {
+  height: 100%;
+}
+
+#contact-content {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-top: 6rem;
+  
+}
+
+#contact-us {
+  color: black;
+}
+
+
+#main-footer {
+  color: white;
+  background-color: #707070;
+  padding-top: 1rem;
+  width: 100%;
+  bottom: 0;
+}
+
+#main-footer a {
+  color: white;
+}
+
+#copyright {
+  margin-top: 1rem;
+}
